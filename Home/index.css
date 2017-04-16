@@ -39,11 +39,51 @@ animation-duration: 7s;
 animation-direction: alternate;
 }
 
+.home { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.down-arrow { 
+   position: absolute; 
+   top: 75vh; 
+   left: 50%; 
+   width: 100%; 
+   
+}
+
+.down-arrow img{
+    opacity: 0.3 
+}
+.down-arrow img:hover{
+    opacity: 1 
+}
+
 
 #Gallery{
     width: 100%;
     height: 100px;
     color: red
+}
+
+.title{
+   position: absolute; 
+   font-size: 4em;
+   top: 5vh; 
+   left: 30%;
+   right: 20%;
+   color: white;
+   font-family: "Times New Roman", Times, serif;
+}
+
+
+.sub-title{
+    position: absolute; 
+   font-size: 1.5em;
+   top: 24vh; 
+   left: 50%;
+   color: white;
+   
 }
 
 .contact-image{
