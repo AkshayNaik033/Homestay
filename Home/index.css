@@ -102,15 +102,23 @@ animation-direction: alternate;
 }
 
 .image1, .image2, .image3 {
-    
-    margin: 1%;
-    border: 1px solid #ccc;
-    float: left;
+  
+    margin-top:5%;
+    height: 50vh; 
+}
+
+.gallery-title{
+    font-size: 3em;
     
 }
 
 
 #images{
-    height: 100vh;
-    background-image: url(../Gallery/background_images.jpg)
+    color: navajowhite;
+    width: 100%;
+    /*height: 100vh;*/
+    background-color: gray;
+    /*background-image: url(../Gallery/background_images.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100%;*/
 }
