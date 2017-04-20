@@ -100,3 +100,17 @@ animation-direction: alternate;
     color: brown;
     text-align: center
 }
+
+.image1, .image2, .image3 {
+    
+    margin: 1%;
+    border: 1px solid #ccc;
+    float: left;
+    
+}
+
+
+#images{
+    height: 100vh;
+    background-image: url(../Gallery/background_images.jpg)
+}
