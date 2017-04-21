@@ -76,14 +76,6 @@ animation-direction: alternate;
 }
 
 
-.sub-title{
-    position: absolute; 
-   font-size: 1.5em;
-   top: 24vh; 
-   left: 50%;
-   color: white;
-   
-}
 
 .contact-image{
     max-width:100%
@@ -116,9 +108,10 @@ animation-direction: alternate;
 #images{
     color: navajowhite;
     width: 100%;
-    /*height: 100vh;*/
-    background-color: gray;
-    /*background-image: url(../Gallery/background_images.jpg);*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: 100%;*/
+    background-color:darkslategray;
+   }
+
+.info{
+    margin-bottom: 7%;
+    font-family: "Times New Roman", Times, serif;
 }
